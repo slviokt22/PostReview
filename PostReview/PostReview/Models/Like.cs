@@ -7,5 +7,7 @@ namespace PostReview.Models
 {
     public class Like
     {
+
+
     }
 }
