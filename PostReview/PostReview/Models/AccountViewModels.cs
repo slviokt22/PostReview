@@ -8,6 +8,8 @@ namespace PostReview.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+       
     }
 
     public class ExternalLoginListViewModel
@@ -44,6 +46,9 @@ namespace PostReview.Models
         [Required]
         [Display(Name = "Email")]
         public string Email { get; set; }
+
+       
+
     }
 
     public class LoginViewModel
