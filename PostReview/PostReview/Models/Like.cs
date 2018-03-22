@@ -7,10 +7,10 @@ namespace PostReview.Models
 {
     public class Like
     {
-        public int id { get; set; }
-        public int id_user { get; set; }
-        public int id_favorit { get; set; }
-
+        public string email { get; set; }
+        public string postid { get; set; }
+        public IndexViewModel user { get; set; }
+        public Post post { get; set; }
         public Boolean status { get; set; }
     }
 }

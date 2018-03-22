@@ -12,6 +12,10 @@ namespace PostReview.Models
         public string PhoneNumber { get; set; }
         public bool TwoFactor { get; set; }
         public bool BrowserRemembered { get; set; }
+
+        public virtual ICollection<Like> Likes { get; set; }
+        public virtual Post Post { get; set; }
+
     }
 
     public class ManageLoginsViewModel
